@@ -1,0 +1,26 @@
+name: smiley_ui
+description: A new Flutter package project.
+version: 1.0.0
+homepage: https://github.com/TesteurManiak/bastiui_smileys
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  alchemist: ^0.3.3
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 900
